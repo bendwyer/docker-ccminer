@@ -27,7 +27,7 @@ Deploying a container
 docker run --runtime=nvidia --restart unless-stopped -itd --name <container name> bendwyer/ccminer:nvidia -a <algorithm> -d <gpu device number> -o <pool url> -u <username> -p <password>
 ```
 
-Available passthrough option for container
+Available passthrough options for container
 ```
 docker run --runtime=nvidia --rm bendwyer/ccminer:nvidia
 ```
