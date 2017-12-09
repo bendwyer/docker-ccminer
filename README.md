@@ -22,9 +22,12 @@ Using my beginner level Linux and Docker knowledge I cobbled the Dockerfile toge
   - Installation: https://github.com/NVIDIA/nvidia-docker#xenial-x86_64
   
  ## Usage
-Basic example
+Deploying a container
 ```
 docker run --runtime=nvidia --restart unless-stopped -itd --name <container name> bendwyer/ccminer:nvidia -a <algorithm> -d <gpu device number> -o <pool url> -u <username> -p <password>
 ```
 
-Refer to the CUDA-9 ccminer [README](https://github.com/tpruvot/ccminer/blob/cuda-9/README.txt) for additional arguments that can be passed to the container.
+Available passthrough option for container
+```
+docker run --runtime=nvidia --rm bendwyer/ccminer:nvidia
+```
