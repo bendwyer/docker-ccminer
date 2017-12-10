@@ -8,8 +8,8 @@ Using my beginner level Linux and Docker knowledge I cobbled the Dockerfile toge
 
 ## Credit
 - Fork of [docker-ccminer](https://github.com/patrickceg/docker-ccminer) by [patrickceg](https://github.com/patrickceg)
-- This repo's CUDA9 branch uses the [cuda-9 ccminer](https://github.com/tpruvot/ccminer/tree/cuda-9) by [tpruvot](https://github.com/tpruvot)
-- This repo's Nanashi-Meiyo-Meijin branch uses the [Nanashi-Meiyo-Meijin ccminer](https://github.com/Nanashi-Meiyo-Meijin/ccminer) by [Nanashi-Meiyo-Meijin](https://github.com/Nanashi-Meiyo-Meijin)
+- [Dockerfile.xenial.cuda-9](https://github.com/bendwyer/docker-ccminer/blob/master/Dockerfile.xenial.cuda-9) uses the [cuda-9 ccminer](https://github.com/tpruvot/ccminer/tree/cuda-9) by [tpruvot](https://github.com/tpruvot)
+- The Nanashi-Meiyo-Meijin branch is a work in progress. It uses the [Nanashi-Meiyo-Meijin ccminer](https://github.com/Nanashi-Meiyo-Meijin/ccminer) by [Nanashi-Meiyo-Meijin](https://github.com/Nanashi-Meiyo-Meijin)
 - A couple of the Dockerfile options come from [calvintam236](https://github.com/calvintam236)'s xmrig-docker images
 
 ## Info
