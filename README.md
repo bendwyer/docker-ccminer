@@ -24,10 +24,10 @@ Using my beginner level Linux and Docker knowledge I cobbled the Dockerfile toge
  ## Usage
 Deploying a container
 ```
-docker run --runtime=nvidia --restart unless-stopped -itd --name <container name> bendwyer/ccminer:nvidia -a <algorithm> -d <gpu device number> -o <pool url> -u <username> -p <password>
+docker run --runtime=nvidia --restart unless-stopped -itd --name <container name> bendwyer/docker-ccminer:cuda-9 -a <algorithm> -d <gpu device number> -o <pool url> -u <username> -p <password>
 ```
 
 Available passthrough options for container
 ```
-docker run --runtime=nvidia --rm bendwyer/ccminer:nvidia
+docker run --runtime=nvidia --rm bendwyer/docker-ccminer:cuda-9
 ```
